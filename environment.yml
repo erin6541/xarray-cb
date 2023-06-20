@@ -1,10 +1,19 @@
-name: cookbook-dev
+name: xarray_cb
 channels:
   - conda-forge
 dependencies:
   - jupyter-book
   - jupyterlab
-  - jupyter_server
+  - jupyter_server<2
+  - numpy
+  - xarray
+  - matplotlib
+  - metpy
+  - cartopy
+  - dask
+  - zarr
+  - pandas
+  - seaborn
   - pip
   - pip:
       - sphinx-pythia-theme
