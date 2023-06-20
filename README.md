@@ -62,7 +62,7 @@ If you are interested in running this material locally on your computer, you wil
 1. Clone the `https://github.com/ProjectPythia/xarray_cb` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/xarray_cbgit
+    git clone https://github.com/ProjectPythia/xarray_cb.git
    ```
 
 1. Move into the `xarray_cb` directory
