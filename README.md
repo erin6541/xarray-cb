@@ -5,20 +5,17 @@
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/erin6541/xarray-cb/HEAD?labpath=notebooks%2Fxarray-cb.ipynb)
 
-.. image:: https://binder.projectpythia.org/badge_logo.svg
- :target: https://binder.projectpythia.org/v2/gh/erin6541/xarray-cb/HEAD?labpath=notebooks%2Fxarray-cb.ipynb
-
-This Project Pythia Cookbook covers using Xarray to open and plot data from the THREDDS Data Server (TDS) utilizing OPeNDAP. 
+This Project Pythia Cookbook covers using Xarray to open and visulize on a basic map projection. The data is obtained from the THREDDS Data Server (TDS) utilizing OPeNDAP. 
 
 ## Motivation
 
-This cookbook will walk you through obtaining a dataset from the [NCEP/DOE Reanalysis II](https://psl.noaa.gov/data/gridded/data.ncep.reanalysis2.html) data through the TDS utilizing the OPeNDAP service. The data set will be opened with Xarray and visualized on a map. 
+This cookbook will walk you through obtaining a dataset from the [NCEP/DOE Reanalysis II](https://psl.noaa.gov/data/gridded/data.ncep.reanalysis2.html) data through the TDS utilizing the OPeNDAP. The data set will be opened with Xarray and visualized on a map. 
 
 The workflow used to open and visualize this dataset can be applied to a variety of datasets hosted on the TDS.
 
 ## Authors
 
-[Erin Rhoades](@erin6541)
+[Erin Rhoades](https://github.com/erin6541)
 
 ### Contributors
 
