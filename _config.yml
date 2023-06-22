@@ -13,7 +13,8 @@ tags:
   domains:
     - sampledomain
   packages:
-    - samplepackage
+    - Xarray
+  
 
 execute:
   # To execute notebooks via a Binder instead, replace 'cache' with 'binder'
@@ -44,7 +45,7 @@ sphinx:
     html_permalinks_icon: '<i class="fas fa-link"></i>'
     html_theme_options:
       home_page_in_toc: true
-      repository_url: https://github.com/erin6541/xarray_cb # Online location of your book
+      repository_url: https://github.com/erin6541/xarray-cb # Online location of your book
       repository_branch: main # Which branch of the repository should be used when creating links (optional)
       use_issues_button: true
       use_repository_button: true
@@ -58,7 +59,7 @@ sphinx:
           icon: fab fa-youtube-square
           type: fontawesome
       launch_buttons:
-        binderhub_url: https://binder.projectpythia.org/v2/gh/erin6541/xarray_cb/HEAD?labpath=notebooks%2Fxarray_cb.ipynb
+        binderhub_url: https://binder.projectpythia.org/v2/gh/erin6541/xarray-cb/HEAD?labpath=notebooks%2Fxarray-cb.ipynb
         notebook_interface: jupyterlab
       extra_navbar: |
         Theme by <a href="https://projectpythia.org">Project Pythia</a>.<br><br>
