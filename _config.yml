@@ -4,7 +4,7 @@
 title: Xarray Cookbook
 author: the <a href="https://projectpythia.org/">Project Pythia</a> Community, Erin Rhoades
 logo: notebooks/images/logos/pythia_logo-white-rtext.svg
-email: eirn6541@yahoo.com
+email: erin6541@yahoo.com
 copyright: "2023"
 
 description: XARRAY
@@ -58,7 +58,7 @@ sphinx:
           icon: fab fa-youtube-square
           type: fontawesome
       launch_buttons:
-        binderhub_url: https://binder.projectpythia.org
+        binderhub_url: https://binder.projectpythia.org/v2/gh/erin6541/xarray_cb/HEAD?labpath=notebooks%2Fxarray_cb.ipynb
         notebook_interface: jupyterlab
       extra_navbar: |
         Theme by <a href="https://projectpythia.org">Project Pythia</a>.<br><br>
