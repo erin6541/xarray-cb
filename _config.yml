@@ -1,19 +1,22 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Xarray Cookbook
+title: Reading and Visualizing Data with Xarray Cookbook
 author: the <a href="https://projectpythia.org/">Project Pythia</a> Community, Erin Rhoades
 logo: notebooks/images/logos/pythia_logo-white-rtext.svg
 email: erin6541@yahoo.com
 copyright: "2023"
 
-description: XARRAY
-thumbnail: thumbnail.png
+description: Xarray logo
+thumbnail: xarray_logo.png
 tags:
   domains:
-    - sampledomain
+    - OPeNDAP
   packages:
     - Xarray
+    - Matplotlib
+    - Cartopy
+    - Numpy
   
 
 execute:
