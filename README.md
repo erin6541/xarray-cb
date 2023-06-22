@@ -5,7 +5,7 @@
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 
-This Project Pythia Cookbook covers ... (XARRAY)
+This Project Pythia Cookbook covers ... using Xarray to open and plot data from a THREDDS server utilizing OPeNDAP.
 
 ## Motivation
 
@@ -59,20 +59,20 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
 
-1. Clone the `https://github.com/ProjectPythia/xarray_cb` repository:
+1. Clone the `https://github.com/ProjectPythia/xarray-cb` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/xarray_cb.git
+    git clone https://github.com/ProjectPythia/xarray-cb.git
    ```
 
-1. Move into the `xarray_cb` directory
+1. Move into the `xarray-cb` directory
    ```bash
-   cd xarray_cb
+   cd xarray-cb
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate xarray_cb
+   conda activate xarray-cb
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash

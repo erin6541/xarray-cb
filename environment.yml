@@ -1,4 +1,4 @@
-name: xarray_cb
+name: xarray-cb
 channels:
   - conda-forge
 dependencies:
