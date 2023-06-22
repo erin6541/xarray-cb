@@ -1,15 +1,20 @@
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 
-# XARRAY Cookbook
+# Reading and Visualizing Data with Xarray Cookbook
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/erin6541/xarray-cb/HEAD?labpath=notebooks%2Fxarray-cb.ipynb)
 
-This Project Pythia Cookbook covers ... using Xarray to open and plot data from a THREDDS server utilizing OPeNDAP.
+.. image:: https://binder.projectpythia.org/badge_logo.svg
+ :target: https://binder.projectpythia.org/v2/gh/erin6541/xarray-cb/HEAD?labpath=notebooks%2Fxarray-cb.ipynb
+
+This Project Pythia Cookbook covers using Xarray to open and plot data from the THREDDS Data Server (TDS) utilizing OPeNDAP. 
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This cookbook will walk you through obtaining a dataset from the [NCEP/DOE Reanalysis II](https://psl.noaa.gov/data/gridded/data.ncep.reanalysis2.html) data through the TDS utilizing the OPeNDAP service. The data set will be opened with Xarray and visualized on a map. 
+
+The workflow used to open and visualize this dataset can be applied to a variety of datasets hosted on the TDS.
 
 ## Authors
 
@@ -23,15 +28,7 @@ This Project Pythia Cookbook covers ... using Xarray to open and plot data from 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
-
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
-
-(Add content for this section, e.g., "The foundational content includes ... ")
-
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-
-(Add content for this section, e.g., "Example workflows include ... ")
+This cookbook is condensed into one section with links throughout to references and documentation. 
 
 ## Running the Notebooks
 
@@ -59,10 +56,10 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
 
-1. Clone the `https://github.com/ProjectPythia/xarray-cb` repository:
+1. Clone the `https://github.com/erin6541/xarray-cb` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/xarray-cb.git
+    git clone https://github.com/erin6541/xarray-cb.git
    ```
 
 1. Move into the `xarray-cb` directory
