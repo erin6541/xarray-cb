@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Reading and Visualizing Data with Xarray Cookbook
+title: Remote Data Access with Xarray with Xarray Cookbook
 author: the <a href="https://projectpythia.org/">Project Pythia</a> Community, Erin Rhoades
 logo: notebooks/images/logos/pythia_logo-white-rtext.svg
 email: erin6541@yahoo.com
